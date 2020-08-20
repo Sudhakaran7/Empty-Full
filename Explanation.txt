@@ -1,0 +1,55 @@
+You have even number of glasses lined up in a row with some glasses are filled with juice and some are empty. How will you arrange the glasses in an alternative pattern, i.e., 
+one glass with juice followed by one empty glass by swapping only once?
+Constraint: The given rows maybe in odd numbers, but while printing result, the glasses should be arranged in even size.
+            The empty glasses should be less than the juive glasses and initial glass should be filled with juice.
+
+Input Description:
+First line contains, n the size of the row. (1<n<1000)
+Second line contains, n size of J and E as inputs.
+
+Output Description:
+Print the alternative pattern of glasses.
+
+Sample Input:
+5
+J E E J J
+
+Sample Output:
+J E J E
+
+Explanation:
+The glasses are arranged in alternative pattern.
+
+Sample Input:
+11
+J J J E E E J E J J E
+
+Sample Ouput:
+J E J E J E J E J E
+
+Sample Input:
+4
+J J J E
+
+Sample Output:
+J E
+
+Sample Input:
+6
+J J J E E E
+
+Sample Output:
+J E J E J E
+
+Sample Input:
+7
+J E E J J J E
+
+Sample Output:
+J E J E J E
+
+Sample Input:
+J J E E J
+
+Sample Output:
+J E J E
